@@ -9,45 +9,40 @@ body { /* This sets the color for the background behind blue boxes */
 }
 
 /* HEADER */
-header { 
+header { /* Changes the header blue box size and color contents*/
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-header h1 {
+header h1 { /* Font settings for Horiseon header top left */
     display: inline-block;
     font-size: 70px;
 }
-header h1 .seo { /* This darkens the 3 letters "seo" in Horiseon */
+header h1 #seo { /* This darkens the 3 letters "seo" in Horiseon */
     color: #d9dcd6;
 }
-header nav { /* Font settings for the 3 selections at the top */
+header nav { /* Font settings for the 3 nav selections at the top */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
-header nav ul {
+header nav ul { /* 3 nav selections at the top listed side-by-side */
     list-style-type: none;
 }
-header nav ul li {
+header nav ul li { /* Margin settings for 3 selections at the top */
     display: inline-block;
     margin-left: 25px;
 }
-
-/* TEXT STYLES */
-a { /* Text settings for the 3 selections at the top */
+a { /* Text settings for the 3 nav selections at the top */
     color: #ffffff;
     text-decoration: none;
 }
-p { /* Font size for the descirption paragraphs */
-    font-size: 25px;
-}
 
 /* HERO DIV WITH BACKGROUND IMAGE */
-.hero {
+.hero { /* Background image settings */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -57,24 +52,43 @@ p { /* Font size for the descirption paragraphs */
 }
 
 /* FLOATS */
-.float-left {
+.float-left { /* Margin spacing for main description from left image */
     float: left;
     margin-right: 25px;
 }
-.float-right {
+.float-right { /* Margin spacing for main description from right image */
     float: right;
     margin-left: 25px;
 }
 
 /* MAIN */
-main {
+main { /* Size and margin for main description */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+p { /* Font size for the paragraphs */
+    font-size: 25px;
+}
+/* MAIN SERVICE DESCRIPTION SECTIONS */
+.service { /* Text settings for main service description */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.service img { /* Image settings for main service description */
+    max-height: 200px;
+}
+.service h2 { /* Header settings for main service description */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 /* BENEFITS ASIDE */
-.benefits {
+.benefits { /* Aside background settings */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -84,35 +98,19 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-.benefit {
+.benefit { /* Aside paragraph settings */
     margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit h3 {
-    margin-bottom: 10px;
+.benefit h3 { /* Aside header settings */
+    margin-bottom: 5px;
+    font-size: 30px;
     text-align: center;
 }
-.benefit img { 
+.benefit img { /* Aside image settings */
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     max-width: 150px;
-}
-
-/* SERVICES SECTIONS */
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.service img {
-    max-height: 200px;
-}
-.service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* FOOTER */
