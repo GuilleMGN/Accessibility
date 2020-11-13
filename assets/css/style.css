@@ -19,7 +19,7 @@ header h1 { /* Font settings for Horiseon header top left */
     display: inline-block;
     font-size: 70px;
 }
-header h1 #seo { /* This darkens the 3 letters "seo" in Horiseon */
+#seo { /* This darkens the 3 letters "seo" in Horiseon */
     color: #d9dcd6;
 }
 header nav { /* Font settings for the 3 nav selections at the top */
@@ -28,6 +28,7 @@ header nav { /* Font settings for the 3 nav selections at the top */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
+    margin-top: 10px;
 }
 header nav ul { /* 3 nav selections at the top listed side-by-side */
     list-style-type: none;
@@ -41,8 +42,8 @@ a { /* Text settings for the 3 nav selections at the top */
     text-decoration: none;
 }
 
-/* HERO DIV WITH BACKGROUND IMAGE */
-.hero { /* Background image settings */
+/* HERO FIGURE WITH BACKGROUND IMAGE */
+figure { /* Background image settings */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -88,7 +89,7 @@ p { /* Font size for the paragraphs */
 }
 
 /* BENEFITS ASIDE */
-.benefits { /* Aside background settings */
+aside { /* Aside background settings */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -118,7 +119,7 @@ footer { /* Settings for footer size and text */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: center; 
 }
 footer h2 { /* Font size for company signature */
     font-size: 20px;
